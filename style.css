@@ -482,6 +482,9 @@ a:active {
 	padding: 1.5em;
 	width: 90%;
 }
+#upper-main {
+    padding-bottom: 0;
+}
 
 body:not(.archive):not(.search) .hentry:first-of-type + .entry-preview,
 .archive .entry-preview:first-of-type,
