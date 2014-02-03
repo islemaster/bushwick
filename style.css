@@ -139,9 +139,9 @@ h1,h2,h3,h4,h5,h6 {
 	font: 700 2.2rem/1.5 "Aleo","Skolar","ff-tisa-web-pro","Georgia",serif;
 }
 h1 {
-	font-size: 2.75rem;
+	font-size: 2rem;
 	line-height: 1;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.1em;
 }
 h2 {
 	font-size: 1.5rem;
@@ -700,17 +700,19 @@ body:not(.archive):not(.search) .hentry:first-of-type + .entry-preview,
 	line-height: 1.5;
 	margin-bottom: 0;
 }
-.entry-content,
-.entry-summary {
+.entry-content {
 	margin: 1.5em 0 0;
 }
 
 .entry-summary {
 	color: rgba(51, 71, 61, 0.5);
 	font-family: "Aleo","Skolar","ff-tisa-web-pro","Georgia",serif;
+    font-size: 0.75rem;
 	font-style: italic;
+    margin: 0;
 	position: relative;
 }
+/*
 .entry-summary p:first-of-type:before {
 	color: #C38596;
 	content: "TL;DR -";
@@ -723,10 +725,10 @@ body:not(.archive):not(.search) .hentry:first-of-type + .entry-preview,
 	padding-top: 0.1em;
 	position: absolute;
 }
-
 .entry-summary p:first-of-type {
 	margin-left: 3em;
 }
+*/
 
 .entry-permalink {
 	display: inline-block;
