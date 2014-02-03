@@ -5,8 +5,14 @@
  * @package Bushwick
  */
 
-get_header(); ?>
+?>
 
+	<section id="upper-primary" class="content-area">
+		<main id="upper-main" class="site-main">
+            <?php get_template_part( 'navigation' ); ?>
+        </main>
+    </section>
+    <?php get_header(); ?>
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

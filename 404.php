@@ -5,13 +5,16 @@
  * @package Bushwick
  */
 
-get_header(); ?>
+?>
 
+	<div id="upper-primary" class="content-area">
+		<main id="upper-main" class="site-main">
+			<?php get_template_part( 'navigation' ); ?>
+        </main>
+    </div>
+    <?php get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-			<?php get_template_part( 'navigation' ); ?>
-
 			<header class="page-header">
 				<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'bushwick' ); ?></h1>
 			</header>
