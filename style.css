@@ -1093,7 +1093,8 @@ object {
 ----------------------------------------------- */
 
 .site-footer {
-	border-top: 1px solid rgba(51, 71, 61, 0.05);
+	border-top: 2px solid rgba(41, 61, 51, 0.05);
+    background-color: rgba(51, 71, 61, 0.05);
 }
 
 .site-info {

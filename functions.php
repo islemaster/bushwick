@@ -69,8 +69,16 @@ add_action( 'after_setup_theme', 'bushwick_setup' );
  */
 function bushwick_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'bushwick' ),
+		'name'          => __( 'Widget Drawer', 'bushwick' ),
 		'id'            => 'sidebar-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer', 'bushwick' ),
+		'id'            => 'sidebar-2',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
