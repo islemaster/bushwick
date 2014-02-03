@@ -498,7 +498,7 @@ body:not(.archive):not(.search) .hentry:first-of-type + .entry-preview,
 	clear: both;
 	display: block;
 	float: left;
-	margin: 0 0 3em;
+	margin: 0 0 0em;
 	width: 100%;
 }
 .navigation-main .menu,
@@ -1026,6 +1026,8 @@ object {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
+    border-top: solid 3px rgba(41, 61, 51, 0.05);
+    border-bottom: solid 3px rgba(41, 61, 51, 0.05);
 	background: rgba(51, 71, 61, 0.05);
 	display: none;
 	padding: 0 1.5em;

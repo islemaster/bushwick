@@ -11,13 +11,23 @@
  * @package Bushwick
  */
 
-get_header(); ?>
+// get_header(); 
+?>
 
+    <div id="upper-primary" class="content-area">
+        <main id="upper-main" class="site-main">
+            <?php
+                get_template_part( 'navigation' );
+            ?>
+        </main>
+    </div>
+    <?php get_header(); ?>
+    </div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 			<?php
-				get_template_part( 'navigation' );
+				// get_template_part( 'navigation' );
 
 				if ( have_posts() ) :
 					the_post();
